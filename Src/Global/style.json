@@ -1,0 +1,11 @@
+{
+    "indicatorColor":"#104547",
+    "mapColor":"#4B5358",
+    "bookmarkColor":"#727072",
+    "calendarColor":"#AF929D",
+    "syncColor":"#B44954",
+    "orientationColor":"#9BBB59",
+    "referenceColor":"#4D7FBB",
+    "bottomBarColor" : "#C3C3C3",
+    "defaultFont":17
+}

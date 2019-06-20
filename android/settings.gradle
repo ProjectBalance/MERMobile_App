@@ -1,0 +1,9 @@
+rootProject.name = 'MERMobile'
+include ':react-native-autoheight-webview'
+project(':react-native-autoheight-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-autoheight-webview/android')
+include ':realm'
+project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules/realm/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':app'
