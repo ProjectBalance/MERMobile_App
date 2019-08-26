@@ -316,7 +316,7 @@ export function SaveData(data){
                                  country:item.fields.country,
                                  name:item.fields.name,
                                  type:item.fields.type,
-                                 sort:item.fields.id,
+                                 sort:item.fields.groupID != null ? item.fields.groupID : item.fields.id,
                                  data:JSON.stringify(item.fields)
                              },
                              true);
